@@ -13,7 +13,17 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 
 ## 🧾 Program
 Add code here
+```
+import numpy as np
+N=np.array(eval(input()))
+print("Given array\n",N)
+arr=np.sort(N,axis=0)
+print(f"\n{arr}")
+```
 
 ## Output
+<img width="832" height="660" alt="image" src="https://github.com/user-attachments/assets/0ab6eda6-305e-4121-929d-918a6fc957f1" />
+
 
 ## Result
+The program successfully sorts the columns of the 2D NumPy array in ascending order.
