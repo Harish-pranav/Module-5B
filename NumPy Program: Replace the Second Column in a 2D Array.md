@@ -13,7 +13,22 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 ## 🧾 Program
 
 Add code here
-
+```
+import numpy as np
+a=np.array(list(eval(input())))
+print("Printing Original array")
+print(a)
+arr1=np.min(a,axis=1)
+print("Printing amin Of Axis 1")
+print(arr1)
+arr2=np.max(a,axis=0)
+print("Printing amax Of Axis 0")
+print(arr2)
+```
 ## Output
+<img width="1116" height="665" alt="image" src="https://github.com/user-attachments/assets/910e8d75-2967-4502-b1f1-f782cc04e703" />
+
+
 
 ## Result
+The program successfully deletes the second column from the original 2D NumPy array and inserts a new column at the same index.
