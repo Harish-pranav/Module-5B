@@ -15,7 +15,20 @@ To write a Python program using **NumPy** that finds the indices where elements 
 ## 🧾 Program
 
 Add code here
+```
+import numpy as np
+x=eval(input())
+y=eval(input())
+l1=np.array(x)
+l2=np.array(y)
+
+print(np.where(l1>l2))
+print(np.where(l1==l2))
+```
 
 ## Output
+<img width="1254" height="240" alt="image" src="https://github.com/user-attachments/assets/0be62923-a0ec-4aa2-a4c5-55c5e4db0520" />
+
 
 ## Result
+This program successfully identifies and prints the indices where the elements of x are greater than or equal to those in y
